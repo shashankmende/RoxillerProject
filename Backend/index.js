@@ -7,7 +7,10 @@ const cors = require('cors')
 const path = require('path');
 
 const app = express();
+app.use(express.static(path.join(__dirname+'/public')))
 app.use(cors())
+
+const PORT = process.env.PORT || 5000
 
 const dbPath = path.join(__dirname, 'roxiller.db');
 let db = null;
@@ -19,7 +22,7 @@ const initializeDbAndServer = async () => {
             driver: sqlite3.Database
         });
 
-        app.listen(3000, () => {
+        app.listen(PORT, () => {
             console.log("Server is started");
         });
     } catch (e) {
