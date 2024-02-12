@@ -1,0 +1,179 @@
+
+
+*{
+  margin: 0px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.bg-container{
+  background-color: #e1fcfb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.transaction-heading {
+  background-color: #ffffff;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.search-month-container {
+  
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input {
+  background-color: #ebed55;
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  font-family: sans-serif;
+  border: none;
+}
+
+.selection-container {
+
+  width: 300px;
+  background-color: #ebed55;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  
+
+}
+
+option{
+  font-size: 16px;
+  font-weight: 450;
+}
+
+table {
+  border-collapse: collapse;
+  
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+th, td {
+  border: 2px solid #363430;
+  text-align: left;
+  padding: 8px;
+  font-family: sans-serif;
+  
+}
+
+th {
+  background-color: #f0bf2e;
+  
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 15px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.previous-next-button {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  background-color: transparent;
+  background-color: #ebed55;
+  font-family: sans-serif;
+  border-radius: 8px;
+  color: black;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.statistics-container {
+  align-self: flex-start;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.stats-bt-container {
+  background-color: #f2ae5a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.sales-title{
+  margin-right: 150px;
+
+  width: 150px;
+}
+.stats-container {
+  
+  padding: 10px;
+  
+  display: flex;
+  width: 350px;
+  
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.bottom-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+.bar-chart-home-container {
+  margin-top: 50px;
+  width: 70%;
+}
+.bar-chart-heading {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: blue;
+}
+
+.statistics-heading {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: blue;
+}
