@@ -19,7 +19,7 @@ const initializeDbAndServer = async () => {
             driver: sqlite3.Database
         });
 
-        app.listen(4001, () => {
+        app.listen(4000, () => {
             console.log("Server is started");
         });
     } catch (e) {
